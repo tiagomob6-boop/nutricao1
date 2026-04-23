@@ -606,11 +606,11 @@ def aba_calculadora_tmb():
         )
 
         fatores = {
-            "Sedentário":         1.200,
-            "Levemente ativo":    1.375,
-            "Moderado":           1.550,
-            "Muito ativo":        1.725,
-            "Extremamente ativo": 1.900,
+            "Sedentário(pouco ou nenhum exercício"                                                   : 1.200,
+            "Levemente ativo(exercício leve 1 a 3 dias/semana)"                                      : 1.375,
+            "Moderado(exercício moderado 3 a 5 dias/semana)"                                         : 1.550,
+            "Muito ativo(exercício pesado 5 a 6 dias/semana)"                                        : 1.725,
+            "Extremamente ativo (exercício muito pesado, 2 exercícios por dia, atleta, profissional)": 1.900,
         }
 
         if st.button("Calcular Gasto Diário", type="primary"):
